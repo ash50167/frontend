@@ -47,7 +47,7 @@ document.getElementById("quoteForm").addEventListener("submit", function (event)
     };
 
     // Make API request to the backend
-    fetch('https://backend-xvkj.onrender.com/api/quote', {
+    fetch('https://backend-pi-seven-87.vercel.app/api/quote', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
