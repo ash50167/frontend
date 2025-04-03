@@ -47,7 +47,7 @@ document.getElementById("quoteForm").addEventListener("submit", function (event)
     };
 
     // Make API request to the backend
-    fetch('http://localhost:5000/api/quote', {
+    fetch('https://backend-xvkj.onrender.com/api/quote', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
